@@ -7,7 +7,7 @@ Put the executable anywhere and run it.  Don't move it if you have it set to run
 # Manual
 Use the standard keyboard shortcuts Alt + Page Up & Down for brightness and Shift + Alt + Page Up & Down for temperature.  Use Alt + End for reapplication of the current settings when you adjust your monitors.  Toggle run on startup for the application to start with windows.
 
-![Context Menu](https://user-images.githubusercontent.com/18270865/230509328-a5e0df09-6919-487a-962e-290f21ff27cf.png)
+![Context Menu](https://user-images.githubusercontent.com/18270865/230511716-49abcddc-0ffd-4e63-8f38-850b39c4db47.png)
 
 # Why This Exists
 I use computers so much that I need absolute control over the brightness and temperature of my monitors to protect my eyes.  None of the existing applications did exactly what I wanted, so I made one that did.
