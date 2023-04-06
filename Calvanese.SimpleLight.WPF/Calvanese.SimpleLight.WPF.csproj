@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+    <SelfContained>true</SelfContained>
+    
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    
+    <ApplicationIcon>Resources\Icons\SimpleLight.ico</ApplicationIcon>
+    
+    <Title>SimpleLight</Title>
+    <AssemblyName>SimpleLight</AssemblyName>
+    <Authors>Daniel Calvanese</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Icons\SimpleLight.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Icons\SimpleLight.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Icons\SimpleLight.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Calvanese.Platform.Forms\Calvanese.Platform.Forms.csproj" />
+    <ProjectReference Include="..\Calvanese.Platform.Standard\Calvanese.Platform.Standard.csproj" />
+    <ProjectReference Include="..\Calvanese.Platform.WPF\Calvanese.Platform.WPF.csproj" />
+    <ProjectReference Include="..\Calvanese.Windows.API\Calvanese.Windows.API.csproj" />
+  </ItemGroup>
+
+</Project>
