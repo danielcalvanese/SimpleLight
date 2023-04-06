@@ -398,7 +398,7 @@ public partial class MainWindow : Window {
     private void SetupSystemTray() {
         // Setup the notification icon
         _notifyIcon.Icon = ResourceLoader.LoadIcon(Assembly.GetExecutingAssembly(), "Calvanese.SimpleLight.WPF.Resources.Icons.SimpleLight.ico", new System.Drawing.Size(16, 16));
-        _notifyIcon.Text = "Simple Light";
+        _notifyIcon.Text = "SimpleLight";
         _notifyIcon.Visible = true;
 
         // Setup the context menu.
@@ -414,8 +414,8 @@ public partial class MainWindow : Window {
         _notifyIcon.ContextMenuStrip.Items.Add("-");
 
         // Add instructions
-        _notifyIcon.ContextMenuStrip.Items.Add("Alt + Page Up & Down for Brightness");
-        _notifyIcon.ContextMenuStrip.Items.Add("Alt + Shift Page Up & Down for Temperature");
+        _notifyIcon.ContextMenuStrip.Items.Add("Alt + Page Up-Down for Brightness");
+        _notifyIcon.ContextMenuStrip.Items.Add("Alt + Shift + Page Up-Down for Temperature");
         _notifyIcon.ContextMenuStrip.Items.Add("Alt + End for Reapplication");
 
         // Add separator.
